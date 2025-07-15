@@ -1,0 +1,10 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="UI.lua"/>
+    <Script file="Stats.lua"/>
+    <Script file="Effects.lua"/>
+    <Script file="Temperature.lua"/>
+    <Script file="Shelter.lua"/>
+    <Script file="Sleep.lua"/>
+    <Script file="Perks.lua"/>
+    <Script file="Consumption.lua"/>
+</Ui>
