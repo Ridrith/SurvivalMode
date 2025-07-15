@@ -1,0 +1,30 @@
+## Interface: 110002
+## Title: Survival Mode
+## Notes: A comprehensive survival system for World of Warcraft
+## Author: Ridrith
+## Version: 1.0.0
+## SavedVariables: SurvivalModeDB
+## OptionalDeps: Ace3, LibSharedMedia-3.0, LibDBIcon-1.0
+
+# Load embedded libraries first
+embeds.xml
+
+# Load locales
+Locales/Locales.xml
+
+# Core file - This MUST load first after libs
+Core.lua
+
+# Load all modules in correct order
+Modules/UI.lua
+Modules/Stats.lua
+Modules/Effects.lua
+Modules/Temperature.lua
+Modules/Shelter.lua
+Modules/Sleep.lua
+Modules/Perks.lua
+Modules/Consumption.lua
+
+# Database and Config last
+Database.lua
+Config.lua
